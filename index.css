@@ -1,0 +1,67 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    background-color: black;
+    color:whitesmoke;
+    padding: 10px;
+}
+h2{
+    font-family: "comic sans Ms";
+    text-align: center;
+    margin: 5px;
+}
+h3{
+    font-family: "comic sans Ms";
+    text-align: center;
+    margin: 5px;
+}
+.gameboard{
+    display: flex;
+    height: 150%;
+    
+    
+}
+#user{
+    
+    width: 50%;
+    height: 70vh;
+    
+}
+#computer{
+   
+    width: 50%;
+}
+#ubtn{
+   display: inline-flex;
+   flex-wrap: wrap;
+    margin-top: 25vh;
+    margin-left: 5vw;
+}
+.uval{
+    font-size: 22px;
+    margin: 10px;
+    background-color: whitesmoke;
+    padding: 5px;
+    cursor: pointer;
+}
+.uval:hover{
+    background-color: pink;
+}
+#res-show{
+    height: 10vh;
+    font-size: 20px;
+    margin-left: 15vw;
+    padding: 5px;
+    width: 30vw;
+    cursor: pointer;
+}
+@media(max-width: 200px){
+    .game-board{
+        flex-wrap: wrap;
+    }
+}
+

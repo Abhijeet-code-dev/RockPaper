@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link href="index.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <h1>Rock Paper Scissor</h1>
+    <h2>Human v/s Computer</h2>
+    <div class="gameboard">
+        <div id="user">
+            <h3>Human </h3>
+            <div id="u-space">
+
+            </div>
+            
+            <div id="ubtn">
+            <button id = "icon1" class="uval" onclick="Human('Rock')"><i class="fa fa-hand-rock-o"></i></button>
+            <button id = "icon2" class="uval" onclick="Human('Paper')"><i class='fa fa-hand-paper-o'></i></button>
+            <button id = "icon3" class="uval" onclick="Human('Scissor')"><i class='fa fa-hand-scissors-o'></i></button>
+        </div>
+        </div>
+        <!--<button id="result-disp">Result</button>-->
+        <span id="res-show"></span>
+        <div id="computer">
+            <h3>Computer</h3>
+            <div id="c-space">
+
+            </div>
+        </div>
+
+    </div>
+    <script src="index1.js"></script>
+</body>
+
+</html>
